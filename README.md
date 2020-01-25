@@ -1,21 +1,21 @@
 # scripts
 Windows BAT Scripts
 
-This Script create dayly txt  ( when the Windows starts ) whit name dd-mm-yyyy.txt
+This Script create daily text file  (when the Windows starts) named dd-mm-yyyy.txt
 
-The sctruture of folders is :
+The structure of folders is :
 
 %homepath%\Desktop\Atendimentos2
 
-in to "Atendimentos2" have
-1,2,3 . . . 12  folders, refers to mounts.
+In "Atendimentos2" there is
+1,2,3 . . . 12  folders, refers to months.
 
-Everday , if run bat file, it create the new txt file. 
+Everyday, if run bat file, it create the new text file. 
 
 ***
-It not subscrive the existent file. 
-It copy himself to "startup" Windows files 
-If you have Sublime editor, the file txt will be open whit Sublime, if not, open whit notepad.exe.
+It not override the existent file. 
+It copy itself to "startup" Windows files 
+If you have Sublime editor, the file text will be open with Sublime, if not, it will open with notepad.exe.
 
 # Portugues 
 
