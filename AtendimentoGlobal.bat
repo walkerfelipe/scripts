@@ -14,18 +14,18 @@ IF EXIST "padrao.txt" (
 
 
 FOR /L %%A IN (1,1,50) DO (
-ECHO %%A >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
+ECHO %%A >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
+ECHO. >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
+ECHO. >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
+ECHO. >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
+ECHO. >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
+ECHO. >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
 ::ECHO I-MANAGER: >> %HoMePath%\Desktop\atendimentos2\padrao.txt
 ::ECHO RECLAMANTE: >> %HoMePath%\Desktop\atendimentos2\padrao.txt
 ::ECHO QUEIXA: >> %HoMePath%\Desktop\atendimentos2\padrao.txt
 ::ECHO PROCEDIMENTO: >> %HoMePath%\Desktop\atendimentos2\padrao.txt
 ::ECHO. >> %HoMePath%\Desktop\atendimentos2\padrao.txt
-ECHO ===============================  >> %HoMePath%\Desktop\atendimentos2\padrao.txt
+ECHO ===============================  >> "%HoMePath%\Desktop\atendimentos2\padrao.txt"
 )
 
 
@@ -57,7 +57,7 @@ IF EXIST "%date:~0,2%-%date:~3,2%-%date:~6,4%.txt" (
 	)
 )  ELSE (
 	echo  %date:~0,2%-%date:~3,2%-%date:~6,4%	>>  %date:~0,2%-%date:~3,2%-%date:~6,4%.txt
-	type %HoMePath%\Desktop\atendimentos2\padrao.txt >> %date:~0,2%-%date:~3,2%-%date:~6,4%.txt
+	type "%HoMePath%\Desktop\atendimentos2\padrao.txt" >> %date:~0,2%-%date:~3,2%-%date:~6,4%.txt
 	)
 
 IF EXIST "C:\Program Files\Sublime Text 3\sublime_text.exe" (
